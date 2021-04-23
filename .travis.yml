@@ -10,8 +10,8 @@ matrix:
     - env: DEPLOY='linux'
       jdk: openjdk11
 
-    - env: DEPLOY='linux-15'
-      jdk: openjdk15
+    - env: DEPLOY='linux-16'
+      jdk: openjdk16
 
     - env: DEPLOY='linux-early-access'
       jdk: openjdk-ea
@@ -20,9 +20,9 @@ matrix:
       os: osx
       jdk: openjdk11
       
-    - env: DEPLOY='macos-15'
+    - env: DEPLOY='macos-16'
       os: osx
-      jdk: openjdk15
+      jdk: openjdk16
 
     - env: DEPLOY='macos-early-access'
       os: osx
